@@ -1,0 +1,74 @@
+@media only screen and (max-width:1040px){
+  .nav-list{
+    flex-direction: column;
+    margin-bottom :15px ;
+    margin-left: 37px;
+  }.navbar{
+    height: 790px;
+    background-color: rgb(0, 0, 0,0.7);
+    flex-direction: column;
+    margin: auto;
+    position: fixed;
+    transition: all 0.3s ease-out;
+  }
+  .logo{
+    padding-right: 92px;
+    padding-bottom: 50px;
+  }.nav-list div img{
+    height: 100px;
+    width: 100px;
+    margin-left: 12px;
+  }
+  .rightnav{
+    flex-direction: column;
+  }
+  .headerelement{
+    margin-bottom: 15px;
+  }
+  .nav-list li{
+    margin-left: 15px;
+    margin-bottom: 45px;
+    font-size: 34px;
+  }
+  .rightnav{
+    text-align: center;
+  }
+  .search{
+    width: 265px;
+    margin-bottom: 20px ;
+    display: block;
+    margin-right: 15px;
+    margin-top: -20px;
+  }
+  .searchbutton{
+    margin-left: 20px;
+  }
+  .burger{
+    display: block;
+  }
+  .h-class-resp{
+    height: 50px;
+  }
+  .v-class-resp{
+    opacity:0;
+  }
+  .box-main{
+    flex-direction: column-reverse;
+    max-width: 100%;
+  }
+  .firstsection div img{
+    margin-bottom: 50px;
+  }
+  .section{
+    flex-direction: column;
+    margin-top: 100px;
+  }
+  .text-big,.text-small{
+    text-align: center;
+  }
+  .buttons{
+    text-align: center;
+  }.contact{
+    height: 700px;
+  }
+}
